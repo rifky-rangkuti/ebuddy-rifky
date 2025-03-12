@@ -1,0 +1,13 @@
+{
+  "name": "@repo/shared-types",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "exports": {
+    ".": "./user.d.ts"
+  }
+}

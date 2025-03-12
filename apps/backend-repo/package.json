@@ -1,0 +1,27 @@
+{
+  "name": "backend-repo",
+  "version": "1.0.0",
+  "author": "rifky rangkuti",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch --clear-screen=false core/app.ts",
+    "start": "node dist/core/app.js"
+  },
+  "dependencies": {
+    "@types/cors": "^2.8.17",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "firebase": "^11.4.0"
+  },
+  "devDependencies": {
+    "@repo/typescript-config": "workspace:*",
+    "@repo/shared-types": "workspace:*",
+    "@types/body-parser": "^1.19.5",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.13.9",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2"
+  }
+}
